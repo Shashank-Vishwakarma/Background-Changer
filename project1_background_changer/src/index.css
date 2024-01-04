@@ -1,0 +1,28 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    background-color: wheat;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+.btn{
+    flex: 1;
+    height: 30px;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
